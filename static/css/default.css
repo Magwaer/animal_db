@@ -1,0 +1,31 @@
+#main_view{
+    padding:20px;
+}
+.app_table{
+    border: 1px solid rgba(0,0,0,0.5);
+    background: #fff;
+}
+.app_table thead{
+    background: rgba(0,0,0,0.8);
+    color:#fff;
+}
+.app_table thead th{
+    text-align: center;
+    padding:10px 0;
+}
+.app_table tbody tr.M td{
+    background: #A2D4EB
+}
+.app_table tbody tr.F td{
+    background: #EBA2E8
+}
+.app_table tbody td{
+    border-bottom:1px solid rgba(0,0,0,0.3);
+    padding:5px;
+}
+.app_table tbody td.center{
+    text-align: center;
+}
+.app_table tbody tr:last-child td{
+    border-bottom:none;
+}

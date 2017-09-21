@@ -1,0 +1,22 @@
+<table width="100%" class="app_table" cellspacing="0">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>ID</th>
+            <th>Nickname</th>
+            <th>Sex</th>
+            <th>Age</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="(k, animal) in animals" class="{{animal.sex}}">
+            <td class="center">{{k+1}}</td>
+            <td class="center">{{animal.a_id}}</td>
+            <td>{{animal.nickname}}</td>
+            <td class="center">{{animal.sex}}</td>
+            <td class="center">{{animal.age}}</td>
+            <td class="center">{{animal.status}}</td>
+        </tr>
+    </tbody>
+</table>
